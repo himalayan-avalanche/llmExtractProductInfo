@@ -62,13 +62,16 @@ en=time.time()
 print(f'time take {en-st}')
 
 ```
-#### Product: poppi ginger lime prebiotic soda
+#### Product: 
+##### Poppi ginger lime prebiotic soda
 
 #### Ingredients: 
 ```python
 print(" ".join(get_formatted_response(response)['kwd']))
 ##### carbonated water, apple cider vinegar, lemon juice, ginger juice, lime juice, organic cane sugar, natural flavors, stevia
-
+```
+#### Nutrition: 
+```python
 print(f"\nNutrition for this product\n")
 ##### calories, total fat, sodium, total carbohydrates, sugars, protein
 ```
